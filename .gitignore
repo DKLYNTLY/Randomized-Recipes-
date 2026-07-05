@@ -1,4 +1,108 @@
-# Project exclude paths
-/.gradle/
-/build/
-/build/classes/java/main/
+# =========================================================
+# Minecraft Mod Development (.gitignore)
+# Forge • NeoForge • Fabric
+# =========================================================
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+
+# Keep the Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# =========================
+# Runtime
+# =========================
+run/
+runs/
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+.idea_modules/
+out/
+
+*.iml
+*.ipr
+*.iws
+
+# =========================
+# Eclipse
+# =========================
+bin/
+.settings/
+.metadata/
+.classpath
+.project
+*.launch
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# NetBeans
+# =========================
+nbproject/
+
+# =========================
+# Forge MDK
+# =========================
+forge*changelog.txt
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+crash-reports/
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Java
+# =========================
+*.class
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.cache
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# =========================
+# Operating System files
+# =========================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
