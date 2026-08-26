@@ -1,114 +1,90 @@
 # Randomized Recipes
 
-**Turn every world into a new crafting puzzle by shuffling vanilla and modded recipe outputs.**
+Randomized Recipes is a Minecraft Forge 1.20.1 mod that shuffles recipe outputs for each world. It supports vanilla recipes and compatible modded data-driven recipes.
 
-Randomized Recipes reassigns the outputs of supported crafting, cooking, stonecutting, and modded data-driven recipes. Every world receives a deterministic shuffle that is generated and activated during startup, before players begin crafting.
+The shuffle is generated and activated while the world starts, before players can begin crafting. Each world keeps a stable seed, so the same recipes, settings, and seed produce the same mapping.
 
-## ✨ Features
+## Features
 
-- 🔀 **Broad recipe shuffling** — supports vanilla recipes and modded data-driven recipes with recognizable output fields.
-- 🧩 **Modpack compatibility** — generated overrides retain each recipe's original namespace, allowing modded recipes to be replaced correctly.
-- 🔎 **JEI support** — shuffled recipes are real datapack recipe overrides, so JEI displays the active shuffled outputs after recipes load or reload. JEI is optional and is not a required dependency.
-- 🌱 **Seed-based worlds** — the same recipe set, configuration, and seed produce the same mapping. Each world remembers its active seed.
-- 🚀 **Ready on world load** — new worlds are shuffled during server startup before players can join.
-- ♻️ **Automatic rebuilding** — changes to recipes, datapacks, mods, or shuffle settings trigger a clean rebuild.
-- 🛡️ **Safe, Balanced, and Chaos presets** — protect progression, use configured filters, or pull from every registered item.
-- 🚫 **Detailed filtering** — allow or block items, item tags, recipes, recipe serializers, and entire mod namespaces.
-- 🔢 **Output-count control** — preserve each recipe's original count or move the count with the shuffled item.
-- 🔄 **Derangement option** — minimizes recipes that retain their original output.
-- 🧯 **Safe recovery** — failed generation or reload attempts preserve the previous working pack.
-- 🛠️ **In-game tools** — inspect the mapping, preview compatibility, reshuffle, validate settings, and export diagnostics.
+- Supports vanilla and compatible modded recipes.
+- Uses real datapack overrides in each recipe's original namespace.
+- Works with JEI without requiring JEI as a dependency.
+- Generates the shuffle before a new world is ready.
+- Rebuilds when recipes, datapacks, mods, or settings change.
+- Includes Safe, Balanced, and Chaos presets.
+- Supports item, item-tag, recipe, recipe-type, and mod filters.
+- Can preserve output counts or shuffle counts with items.
+- Can minimize recipes that retain their original output.
+- Restores original recipes when randomization is disabled.
+- Preserves the previous working pack if generation fails.
 
-## 📥 Installation
+## Installation
 
-1. Install **Forge 47** for **Minecraft 1.20.1**.
-2. Put `randomized_recipes-1.2.0.jar` in the instance or server `mods` folder.
-3. Optionally install JEI to browse the active shuffled recipes.
-4. Create or load a world. The shuffle is generated automatically.
+1. Install Forge 47 for Minecraft 1.20.1.
+2. Put `randomized_recipes-1.2.0.jar` in the `mods` folder.
+3. Create or load a world.
 
-Use the same Randomized Recipes version and configuration on the client and server.
+JEI is optional. Install it if you want to browse the active shuffled recipes.
 
-## 💬 Commands
+## Commands
 
 | Command | Permission | Description |
 | --- | --- | --- |
-| `/rrhelp` | Everyone | Show the available commands |
-| `/rrstatus` | Everyone | Show pack state, preset, seed, coverage, failures, and configuration fingerprints |
-| `/rrfind <item>` | Everyone | Find shuffled recipes that now produce an item |
+| `/rrhelp` | Everyone | Show available commands |
+| `/rrstatus` | Everyone | Show the pack state, preset, seed, coverage, failures, and configuration fingerprints |
+| `/rrfind <item>` | Everyone | Find recipes that now produce an item |
 | `/rrrecipe <recipe>` | Everyone | Show the current output of a recipe |
-| `/rrreshuffle` | Operator | Generate and activate a new random seed |
-| `/rrreshuffle <seed>` | Operator | Generate a repeatable mapping from a specific seed |
-| `/rrdebug` | Operator | Rebuild from the current seed and original recipe baseline |
-| `/rrdryrun [seed]` | Operator | Preview coverage and compatibility without changing the world |
-| `/rrcheck` | Operator | Validate filters and report unsupported or failed recipes |
-| `/rrdump` | Operator | Export the exact active recipe mapping |
+| `/rrreshuffle` | Operator | Generate a new random mapping |
+| `/rrreshuffle <seed>` | Operator | Generate a mapping from a specific seed |
+| `/rrdebug` | Operator | Rebuild using the current seed |
+| `/rrdryrun [seed]` | Operator | Preview compatibility without changing the world |
+| `/rrcheck` | Operator | Validate filters and report recipe compatibility |
+| `/rrdump` | Operator | Export the active mapping |
 
-The old `/rsh...` and `/dkrsreload` command names are not used by version 1.2.0.
+The old `/rsh...` and `/dkrsreload` command names are not used in version 1.2.0.
 
-## ⚙️ Configuration
+## Configuration
 
-Config file: `config/randomized_recipes-common.toml`
+The configuration file is `config/randomized_recipes-common.toml`.
 
 | Option | Default | Description |
 | --- | --- | --- |
-| `randomize_recipes` | `true` | Enable or disable randomization; disabling restores original recipes |
-| `shuffle_preset` | `BALANCED` | Select `SAFE`, `BALANCED`, or `CHAOS` behavior |
+| `randomize_recipes` | `true` | Enable or disable randomization |
+| `shuffle_preset` | `BALANCED` | Select `SAFE`, `BALANCED`, or `CHAOS` |
 | `avoid_unchanged_outputs` | `true` | Minimize recipes that keep their original output |
-| `shuffle_output_counts` | `false` | Move output quantities with items instead of preserving recipe counts |
+| `shuffle_output_counts` | `false` | Move output quantities with shuffled items |
 | `item_blacklist` | Safety defaults | Block specific output items |
-| `recipe_blacklist` | Empty | Leave specific recipe IDs untouched |
-| `recipe_type_allowlist` | Empty | When populated, shuffle only listed recipe serializers |
+| `recipe_blacklist` | Empty | Leave specific recipes unchanged |
+| `recipe_type_allowlist` | Empty | Shuffle only listed recipe serializers |
 | `recipe_type_blacklist` | Empty | Block listed recipe serializers |
-| `item_tag_allowlist` | Empty | When populated, use outputs only from listed item tags |
-| `item_tag_blacklist` | Empty | Block outputs belonging to listed item tags |
-| `mod_blacklist` | Empty | Exclude recipe and output namespaces from entire mods |
+| `item_tag_allowlist` | Empty | Use outputs only from listed item tags |
+| `item_tag_blacklist` | Empty | Block outputs from listed item tags |
+| `mod_blacklist` | Empty | Exclude entire mod namespaces |
 | `show_welcome_message` | `true` | Show the command hint once per player per world |
-| `reset_welcome_message` | `false` | Show the welcome again to the next joining player, then reset |
-| `safe_mode` | `false` | Legacy override for progression-safe behavior |
-| `chaos_mode` | `false` | Legacy override for chaos behavior |
+| `reset_welcome_message` | `false` | Show the welcome to the next joining player again |
+| `safe_mode` | `false` | Legacy override for Safe behavior |
+| `chaos_mode` | `false` | Legacy override for Chaos behavior |
 
-**SAFE** protects planks, sticks, crafting tables, furnaces, basic pickaxes, torches, and chests. **BALANCED** shuffles recipe outputs while respecting all configured filters. **CHAOS** ignores filters and chooses from every registered non-empty item.
+Safe protects essential early-game outputs such as planks, sticks, crafting tables, furnaces, basic pickaxes, torches, and chests. Balanced respects all configured filters. Chaos ignores filters and selects from every registered non-empty item.
 
-## ❓ FAQ
+## Compatibility
 
-### Does this work with modded recipes?
+JEI reads the active shuffled recipes because the mod changes the actual server recipe data. A recipe reload updates the collection JEI receives. No separate JEI integration add-on is required.
 
-Yes. Modded data-driven recipes with recognized `result`, `output`, `outputs`, `result_item`, or `output_item` structures are supported and written into the correct mod namespace. Recipes with dynamic, programmatic, or unrecognized output structures remain unchanged instead of being corrupted. Use `/rrdryrun` or `/rrcheck` to see exact compatibility results for your modpack.
+Modded data-driven recipes are supported when they use recognized result structures such as `result`, `output`, `outputs`, `result_item`, or `output_item`. Dynamic, programmatic, or unrecognized recipes remain unchanged to prevent corruption.
 
-### Does this work with JEI?
+Use `/rrdryrun`, `/rrcheck`, or `/rrstatus` to see exact compatibility results for a modpack.
 
-Yes. Randomized Recipes changes the server's actual recipe data, so JEI reads the shuffled outputs when recipes load. JEI is optional; no extra integration add-on is required. After an operator reshuffle, the recipe reload updates the active recipe collection.
-
-### Will every new world already be shuffled?
-
-Yes. Generation and activation happen during world startup before the server reports that the world is ready.
-
-### Will I get the same shuffle every time?
-
-Yes, when the recipe dataset, configuration, and seed are the same. Use `/rrreshuffle <seed>` for a repeatable result.
-
-### Can I restore normal recipes?
-
-Yes. Set `randomize_recipes` to `false`. The generated pack is deselected and removed, then the original recipes are restored.
-
-### Why did a recipe remain unchanged?
-
-It may be protected by the selected preset or filters, have no fixed output, use a programmatic serializer, store its output in an unknown custom structure, or have no valid alternative in the selected output pool. `/rrstatus`, `/rrcheck`, and `/rrdryrun` report these cases.
-
-## 🧪 Building and testing
+## Building
 
     ./gradlew build
-    ./gradlew runGameTestServer
 
 The release JAR is written to `build/libs`.
 
-## 🧾 Version
+## Project information
 
-**Current version:** `1.2.0`  
-**Mod ID:** `randomized_recipes`  
-**Loader:** Forge  
-**Minecraft:** 1.20.1
-
-## License
-
-See [LICENSE](LICENSE). Public and private modpack use is permitted under the included custom license.
+- Version: `1.2.0`
+- Mod ID: `randomized_recipes`
+- Loader: Forge
+- Minecraft: 1.20.1
+- License: See [LICENSE](LICENSE)
