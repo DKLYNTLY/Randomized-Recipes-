@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"G":{"item":"minecraft:glass"},"O":{"item":"minecraft:obsidian"},"S":{"item":"minecraft:nether_star"}},"pattern":["GGG","GSG","OOO"],"result":{"item":"minecraft:cooked_salmon","count":1},"show_notification":true}

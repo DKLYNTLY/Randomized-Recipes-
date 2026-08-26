@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"redstone","key":{"P":{"item":"minecraft:piston"},"S":{"item":"minecraft:slime_ball"}},"pattern":["S","P"],"result":{"item":"minecraft:spruce_hanging_sign","count":1},"show_notification":true}

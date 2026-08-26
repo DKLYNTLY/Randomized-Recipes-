@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"redstone","group":"wooden_pressure_plate","key":{"#":{"item":"minecraft:birch_planks"}},"pattern":["##"],"result":{"item":"minecraft:red_nether_brick_slab","count":1},"show_notification":true}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"tag":"forge:rods/wooden"},"X":{"tag":"minecraft:wool"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:birch_sign","count":1},"show_notification":true}

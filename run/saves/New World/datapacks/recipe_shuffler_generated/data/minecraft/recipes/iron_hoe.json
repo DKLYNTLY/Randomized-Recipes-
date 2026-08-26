@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","key":{"#":{"tag":"forge:rods/wooden"},"X":{"tag":"forge:ingots/iron"}},"pattern":["XX"," #"," #"],"result":{"item":"minecraft:snow_block","count":1},"show_notification":true}

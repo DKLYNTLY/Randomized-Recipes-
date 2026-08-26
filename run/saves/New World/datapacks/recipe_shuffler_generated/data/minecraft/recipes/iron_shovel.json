@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","key":{"#":{"tag":"forge:rods/wooden"},"X":{"tag":"forge:ingots/iron"}},"pattern":["X","#","#"],"result":{"item":"minecraft:black_bed","count":1},"show_notification":true}

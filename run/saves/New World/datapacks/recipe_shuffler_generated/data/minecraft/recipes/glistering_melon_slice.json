@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:gold_nugget"},"X":{"item":"minecraft:melon_slice"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:polished_blackstone_brick_wall","count":1},"show_notification":true}

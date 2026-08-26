@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"G":{"item":"minecraft:glowstone"},"O":{"item":"minecraft:crying_obsidian"}},"pattern":["OOO","GGG","OOO"],"result":{"item":"minecraft:stone_hoe","count":1},"show_notification":true}

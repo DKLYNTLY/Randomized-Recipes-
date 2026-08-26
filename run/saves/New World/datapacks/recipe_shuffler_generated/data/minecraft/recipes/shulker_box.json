@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"tag":"forge:chests/wooden"},"-":{"item":"minecraft:shulker_shell"}},"pattern":["-","#","-"],"result":{"item":"minecraft:polished_andesite_stairs","count":1},"show_notification":true}

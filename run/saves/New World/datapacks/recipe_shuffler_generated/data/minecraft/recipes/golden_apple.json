@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"tag":"forge:ingots/gold"},"X":{"item":"minecraft:apple"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:light_blue_stained_glass_pane","count":1},"show_notification":true}

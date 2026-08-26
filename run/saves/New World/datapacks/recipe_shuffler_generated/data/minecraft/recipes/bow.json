@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","key":{"#":{"tag":"forge:rods/wooden"},"X":{"tag":"forge:string"}},"pattern":[" #X","# X"," #X"],"result":{"item":"minecraft:light_gray_glazed_terracotta","count":1},"show_notification":true}

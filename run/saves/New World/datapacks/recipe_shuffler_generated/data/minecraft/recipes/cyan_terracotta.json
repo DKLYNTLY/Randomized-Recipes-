@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"building","group":"stained_terracotta","key":{"#":{"item":"minecraft:terracotta"},"X":{"item":"minecraft:cyan_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:stripped_dark_oak_wood"},"show_notification":true}

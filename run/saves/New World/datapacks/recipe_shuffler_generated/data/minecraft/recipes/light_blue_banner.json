@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","group":"banner","key":{"#":{"item":"minecraft:light_blue_wool"},"|":{"tag":"forge:rods/wooden"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:orange_wool","count":1},"show_notification":true}

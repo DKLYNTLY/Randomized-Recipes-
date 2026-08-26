@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:soul_torch"},"X":{"item":"minecraft:iron_nugget"}},"pattern":["XXX","X#X","XXX"],"result":{"item":"minecraft:anvil","count":1},"show_notification":true}

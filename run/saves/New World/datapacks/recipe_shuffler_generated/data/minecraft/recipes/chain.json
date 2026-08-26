@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"I":{"tag":"forge:ingots/iron"},"N":{"item":"minecraft:iron_nugget"}},"pattern":["N","I","N"],"result":{"item":"minecraft:cut_sandstone","count":1},"show_notification":true}

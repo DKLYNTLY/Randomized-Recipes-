@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"tag":"minecraft:planks"},"@":{"item":"minecraft:paper"}},"pattern":["@@","##","##"],"result":{"item":"minecraft:iron_nugget","count":1},"show_notification":true}

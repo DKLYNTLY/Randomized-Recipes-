@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:obsidian"},"B":{"item":"minecraft:book"},"D":{"tag":"forge:gems/diamond"}},"pattern":[" B ","D#D","###"],"result":{"item":"minecraft:shaper_armor_trim_smithing_template","count":1},"show_notification":true}

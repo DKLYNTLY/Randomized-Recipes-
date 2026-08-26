@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","key":{"#":{"tag":"forge:rods/wooden"},"X":{"tag":"forge:ingots/gold"}},"pattern":["X","#","#"],"result":{"item":"minecraft:exposed_cut_copper_slab","count":1},"show_notification":true}

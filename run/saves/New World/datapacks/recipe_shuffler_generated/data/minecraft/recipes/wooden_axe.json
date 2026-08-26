@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","key":{"#":{"tag":"forge:rods/wooden"},"X":{"tag":"minecraft:planks"}},"pattern":["XX","X#"," #"],"result":{"item":"minecraft:sandstone_wall","count":1},"show_notification":true}

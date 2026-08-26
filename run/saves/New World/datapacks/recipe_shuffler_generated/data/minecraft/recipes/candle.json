@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"H":{"item":"minecraft:honeycomb"},"S":{"tag":"forge:string"}},"pattern":["S","H"],"result":{"item":"minecraft:furnace_minecart","count":1},"show_notification":true}

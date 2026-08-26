@@ -1,49 +1,24 @@
 modLoader = "javafml"
-loaderVersion = "[47,)"
-license = '''
-Proprietary License
-
-This mod, "Randomized Recipes," is the proprietary property of DarklyStudios. All rights reserved.
-
-You may:
-- Use this mod for personal, non-commercial purposes.
-
-You may not:
-- Copy, modify, distribute, or create derivative works based on this mod.
-- Upload this mod to any website or platform without explicit permission from the author.
-- Use this mod for commercial purposes.
-
-Any unauthorized use of this mod is strictly prohibited and may result in legal action.
-
-For permissions, contact DKLYNTLY at DarklyStudios@outlook.com.
-'''
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
 
 [[mods]]
 modId = "${mod_id}"
 version = "${mod_version}"
 displayName = "${mod_name}"
-authors = "DarklyStudios (dklyntly)"
-description = '''
-Randomizes all recipe outputs, including recipes added by other mods, using the world seed.
-'''
+authors = "${mod_authors}"
+description = '''${mod_description}'''
 
 [[dependencies."${mod_id}"]]
 modId = "forge"
 mandatory = true
-versionRange = "[47,)"
-ordering = "AFTER"
+versionRange = "${forge_version_range}"
+ordering = "NONE"
 side = "BOTH"
 
 [[dependencies."${mod_id}"]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.1,1.21)"
-ordering = "AFTER"
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
 side = "BOTH"
-
-[[dependencies."${mod_id}"]]
-modId = "jei"
-mandatory = false
-versionRange = "[15,)"
-ordering = "AFTER"
-side = "CLIENT"

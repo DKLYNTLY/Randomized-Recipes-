@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"redstone","group":"wooden_fence_gate","key":{"#":{"tag":"forge:rods/wooden"},"W":{"item":"minecraft:crimson_planks"}},"pattern":["#W#","#W#"],"result":{"item":"minecraft:waxed_weathered_cut_copper","count":1},"show_notification":true}

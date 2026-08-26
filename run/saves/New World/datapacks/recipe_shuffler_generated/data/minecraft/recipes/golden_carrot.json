@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:gold_nugget"},"X":{"item":"minecraft:carrot"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:jungle_chest_boat","count":1},"show_notification":true}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"tag":"minecraft:planks"},"X":{"tag":"forge:gems/diamond"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:brick_slab","count":1},"show_notification":true}

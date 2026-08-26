@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"I":{"item":"minecraft:bamboo"},"~":{"tag":"forge:string"}},"pattern":["I~I","I I","I I"],"result":{"count":6,"item":"minecraft:polished_blackstone_wall"},"show_notification":true}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"redstone","key":{"#":{"tag":"forge:cobblestone/normal"},"X":{"tag":"forge:rods/wooden"}},"pattern":["X","#"],"result":{"item":"minecraft:tnt_minecart","count":1},"show_notification":true}

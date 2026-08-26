@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","group":"bed","key":{"#":{"item":"minecraft:orange_wool"},"X":{"tag":"minecraft:planks"}},"pattern":["###","XXX"],"result":{"item":"minecraft:host_armor_trim_smithing_template","count":1},"show_notification":true}

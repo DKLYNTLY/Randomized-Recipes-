@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","key":{"#":{"tag":"forge:rods/wooden"},"X":{"tag":"forge:ingots/gold"}},"pattern":["XX","X#"," #"],"result":{"item":"minecraft:leather_boots","count":1},"show_notification":true}

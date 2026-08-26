@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"redstone","key":{"#":{"tag":"forge:cobblestone/normal"},"R":{"item":"minecraft:redstone"}},"pattern":["###","# #","#R#"],"result":{"item":"minecraft:wooden_pickaxe","count":1},"show_notification":true}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"tag":"minecraft:logs"},"X":{"item":"minecraft:furnace"}},"pattern":[" # ","#X#"," # "],"result":{"item":"minecraft:glowstone","count":1},"show_notification":true}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"building","key":{"I":{"item":"minecraft:black_dye"},"S":{"item":"minecraft:prismarine_shard"}},"pattern":["SSS","SIS","SSS"],"result":{"item":"minecraft:oak_trapdoor","count":1},"show_notification":true}

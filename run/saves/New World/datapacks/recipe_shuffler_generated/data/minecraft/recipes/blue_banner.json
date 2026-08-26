@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"misc","group":"banner","key":{"#":{"item":"minecraft:blue_wool"},"|":{"tag":"forge:rods/wooden"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:honey_bottle","count":1},"show_notification":true}

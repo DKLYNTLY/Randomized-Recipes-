@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","key":{"#":{"tag":"forge:ingots/gold"},"X":{"item":"minecraft:redstone"}},"pattern":[" # ","#X#"," # "],"result":{"item":"minecraft:cobbled_deepslate_wall","count":1},"show_notification":true}

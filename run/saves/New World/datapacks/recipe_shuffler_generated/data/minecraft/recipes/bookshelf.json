@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"tag":"minecraft:planks"},"X":{"item":"minecraft:book"}},"pattern":["###","XXX","###"],"result":{"item":"minecraft:magenta_stained_glass_pane","count":1},"show_notification":true}

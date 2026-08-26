@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","category":"redstone","group":"wooden_trapdoor","key":{"#":{"item":"minecraft:mangrove_planks"}},"pattern":["###","###"],"result":{"count":2,"item":"minecraft:raw_copper"},"show_notification":true}
