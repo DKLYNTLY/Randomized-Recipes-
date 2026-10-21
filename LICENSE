@@ -1,25 +1,152 @@
-Copyright (c) 2026 DarklyStudios (dklyntly)
+Copyright (c) 2026 Dnydd (formerly known as dklyntly)
 All Rights Reserved.
 
-This repository and its contents are made publicly viewable for bug tracking,
-community feedback, discussion, and reference by users of the mod.
+SCOPE AND OWNERSHIP
 
-PERMITTED USE:
+I am Dnydd, formerly known as dklyntly. These terms apply to each mod and its
+associated files that I release under this license, for Minecraft, Cyberpunk
+2077, or any other game or platform. They cover my code, scripts, plugins,
+assets, interfaces, documentation, and other included files.
 
-- This mod may be included and used in private modpacks or collections.
-- This mod may be included and used in public modpacks or collections.
-- Configs, recipes, and similar data files may be tweaked or overridden by
-  modpack creators as part of a pack, provided the mod's own files are not
-  redistributed in modified form outside that pack.
-- Forking or cloning this repository to submit bug fixes, pull requests, or
-  contributions back to this repository is permitted.
+This is a custom, source-available, All Rights Reserved license. It is not an
+open-source license.
 
-No other permission is granted to copy, modify, merge, publish, redistribute,
-reupload, repackage, decompile for redistribution, or sell this mod or its
-contents outside the uses described above without prior written consent from
-the copyright holder.
+My mods remain my work. Public access to their files or source code does not
+make them open source or give permission to publish copies. Any third-party
+material identified as separately licensed remains under its own terms.
 
-All rights not expressly granted are reserved.
+PLAYING AND CONFIGURATION
 
-For licensing inquiries or permission requests, contact:
-darklystudios@outlook.com
+You may download, install, and play with my mods. You may keep personal backup
+copies and edit configuration files for your own setup.
+
+You may share configuration files you edited and original presets you made,
+including through a modpack or collection. These files must not contain my
+code, scripts, plugins, assets, or other mod files. Credit my mod and link to
+its official download when sharing files made for it. Original presets and
+configuration files may earn Nexus Mods Donation Points; paid distribution
+and other third-party monetisation require my prior written permission.
+
+Public modpacks and collections may include unmodified official releases of
+my mods. You do not need separate permission for that inclusion. Credit me as
+Dnydd (formerly known as dklyntly), link the official mod page, and include
+this license and the original notices with the mod files.
+
+This permission covers distributing my unmodified mod as part of the pack,
+including a pack download that contains those files. It does not allow a
+standalone mirror, a renamed copy presented as another mod, or a modified
+release. Paid redistribution of my files requires my prior written permission.
+Collections may also use supported tools to download from the official page.
+Only configuration files may be edited under this permission, except for the
+contribution process and separately approved changes described below.
+
+PRIVATE CODE CHANGES
+
+Configuration edits are allowed as stated above. Private changes to source
+code, scripts, plugins, or assets for personal use require my prior written
+permission, except for preparing a contribution directly for my review.
+Keeping a modified copy private does not create another editing permission.
+
+EARLIER LICENSES AND EXISTING PERMISSIONS
+
+This revision does not revoke permissions already granted for copies released
+under an earlier license or a separate written approval. Those copies remain
+subject to the terms that accompanied them. If an earlier license allowed a
+version to be included in public or private modpacks, that version may still
+be included under its original conditions.
+
+That permission does not automatically extend to later updates, additional
+files, or versions released under these revised terms. Follow the license
+supplied with each version and keep a record of any separate approval.
+
+NO COPIED OR MODIFIED RELEASES
+
+Except for the modpack inclusion and other uses expressly allowed above,
+you need my prior written permission to copy my work into another mod, reuse
+its code or assets, or publish or distribute any of my mod files.
+This includes unchanged copies, modified versions, ports, standalone versions,
+repackages, bundles, mirrors, and reuploads on any site, service, or platform.
+Giving credit, renaming files, changing the mod's name, or offering it for free
+does not grant permission. You may not claim my work as your own or sell it.
+
+TRANSLATIONS, FIXES, AND OTHER APPROVED CHANGES
+
+I may give prior written permission for translations, bug fixes, compatibility
+patches, ports, or other changes. Ask before making or publishing these changes,
+except for configuration edits and contributions submitted directly to me
+under the permissions already stated here.
+
+My permission applies only to the project, files, changes, and distribution
+method I approve. Permission to make a change does not automatically include
+permission to publish it or upload the full mod. Credit me as Dnydd (formerly
+known as dklyntly), link the official mod page, and clearly label an approved
+release as a translation or patch. Follow any conditions in my written approval.
+
+Approval for one release does not grant permission for unrelated work, future
+versions, or use in another mod. Ask again if your work exceeds that approval.
+
+WHAT COUNTS AS WRITTEN APPROVAL
+
+Written approval means an explicit message from me by email at
+darklystudios@outlook.com, or from an account identified as mine on my official
+mod page or repository. This can include a direct message or public reply
+that clearly approves the requested use.
+
+The message must identify the work and what I allow, including publication
+when requested. Keep a copy. Silence, a reaction, a third-party statement, or
+a message from an unverified account does not count as approval. Permission
+to edit alone does not authorize distribution.
+
+FIXES AND CONTRIBUTIONS
+
+You may inspect the source and make changes solely to prepare a fix or other
+contribution for me. Submit it through my repository or another channel I
+provide. This exception allows a contribution for my review, not a separate
+release, public patch download, or redistribution of my mod.
+
+By intentionally submitting a fix or contribution for inclusion in my work,
+you grant me a worldwide, perpetual, irrevocable, non-exclusive, royalty-free
+license to use, copy, edit, combine, publish, distribute, and sublicense that
+contribution as part of my mods and their associated files. I may include it
+in current or future releases, including paid, monetized, donation-supported,
+or otherwise commercial releases, without payment or further permission.
+Contributors receive no automatic share of revenue, donations, or other
+proceeds. This grant covers only rights they can lawfully grant and does not
+remove any separate third-party restrictions.
+
+You keep ownership of your original contribution. You must have the right to
+grant these permissions and identify any third-party material or separate
+terms when submitting it. A report, casual suggestion, or unrelated public
+patch is not automatically a submitted code contribution. Submission does not
+require me to accept, use, or maintain the change.
+
+NO WARRANTY AND LIMITATION OF LIABILITY
+
+To the extent permitted by applicable law, I provide my mods and associated
+files as is and as available, without express or implied warranties. This
+includes warranties of merchantability, fitness for a particular purpose,
+non-infringement, availability, accuracy, and freedom from errors. I do not
+promise that a mod will work with every game version or mod setup.
+
+To the extent permitted by applicable law, I and the contributors are not
+liable for claims, losses, costs, or damages arising from the mod, its use,
+or an inability to use it. This includes lost data, damaged saves, lost
+profits, and direct, indirect, incidental, special, or consequential damages,
+whether the claim arises in contract, tort, or another legal basis.
+
+These exclusions do not limit liability or rights that applicable law does
+not allow to be excluded or limited. Any mandatory consumer protections
+remain in effect.
+
+PLATFORM RIGHTS AND OTHER PERMISSIONS
+
+These terms do not restrict rights that applicable law does not allow me to
+limit, or rights already granted under a separate agreement. GitHub's terms
+allow viewing and forking a public repository through its service; those
+platform rights do not make my mod an open-source project or authorize a
+separate mod release under this license.
+
+All rights not expressly granted here are reserved. Ask for prior written
+permission for any other use. Do not assume that credit or silence is consent.
+
+Contact: darklystudios@outlook.com
