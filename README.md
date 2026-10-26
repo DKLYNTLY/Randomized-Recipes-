@@ -1,10 +1,12 @@
-# Randomized Recipes
+<h1 align="center">Randomized Recipes</h1>
 
 Randomized Recipes is a Minecraft Forge 1.20.1 mod that shuffles recipe outputs for each world. It supports vanilla recipes and compatible modded data-driven recipes.
 
 The shuffle is generated and activated while the world starts, before players can begin crafting. Each world keeps a stable seed, so the same recipes, settings, and seed produce the same mapping.
 
-## Features
+<p align="center"><a href="https://www.curseforge.com/minecraft/mc-mods/randomized-recipes">Download on CurseForge</a> · <a href="https://discord.com/invite/mUGHmQxHG8">Discord</a> · <a href="https://github.com/DKLYNTLY/Randomized-Recipes-">GitHub source</a></p>
+
+## What you can do
 
 - Supports vanilla and compatible modded recipes.
 - Uses real datapack overrides in each recipe's original namespace.
@@ -18,7 +20,10 @@ The shuffle is generated and activated while the world starts, before players ca
 - Restores original recipes when randomization is disabled.
 - Preserves the previous working pack if generation fails.
 
-## Installation
+<details>
+<summary><strong>Install, update, and check compatibility</strong></summary>
+
+### Installation
 
 1. Install Forge 47 for Minecraft 1.20.1.
 2. Put `randomized_recipes-1.2.0.jar` in the `mods` folder.
@@ -26,7 +31,22 @@ The shuffle is generated and activated while the world starts, before players ca
 
 JEI is optional. Install it if you want to browse the active shuffled recipes.
 
-## Commands
+---
+
+### Compatibility
+
+JEI reads the active shuffled recipes because the mod changes the actual server recipe data. A recipe reload updates the collection JEI receives. No separate JEI integration add-on is required.
+
+Modded data-driven recipes are supported when they use recognized result structures such as `result`, `output`, `outputs`, `result_item`, or `output_item`. Dynamic, programmatic, or unrecognized recipes remain unchanged to prevent corruption.
+
+Use `/rrdryrun`, `/rrcheck`, or `/rrstatus` to see exact compatibility results for a modpack.
+
+</details>
+
+<details>
+<summary><strong>Play: controls, commands, and progression</strong></summary>
+
+### Commands
 
 | Command | Permission | Description |
 | --- | --- | --- |
@@ -43,7 +63,12 @@ JEI is optional. Install it if you want to browse the active shuffled recipes.
 
 The old `/rsh...` and `/dkrsreload` command names are not used in version 1.2.0.
 
-## Configuration
+</details>
+
+<details>
+<summary><strong>Configure and customize</strong></summary>
+
+### Configuration
 
 The configuration file is `config/randomized_recipes-common.toml`.
 
@@ -67,24 +92,55 @@ The configuration file is `config/randomized_recipes-common.toml`.
 
 Safe protects essential early-game outputs such as planks, sticks, crafting tables, furnaces, basic pickaxes, torches, and chests. Balanced respects all configured filters. Chaos ignores filters and selects from every registered non-empty item.
 
-## Compatibility
+</details>
 
-JEI reads the active shuffled recipes because the mod changes the actual server recipe data. A recipe reload updates the collection JEI receives. No separate JEI integration add-on is required.
+<details>
+<summary><strong>Backups and recovery</strong></summary>
 
-Modded data-driven recipes are supported when they use recognized result structures such as `result`, `output`, `outputs`, `result_item`, or `output_item`. Dynamic, programmatic, or unrecognized recipes remain unchanged to prevent corruption.
+### Before updating
 
-Use `/rrdryrun`, `/rrcheck`, or `/rrstatus` to see exact compatibility results for a modpack.
+*Back up your world and configuration files before updating or changing settings. Keep a working copy of the old instance until you have checked the new setup.*
 
-## Building
+</details>
 
-    ./gradlew build
+<details>
+<summary><strong>Troubleshooting, logs, and technical details</strong></summary>
+
+### Building
+
+./gradlew build
 
 The release JAR is written to `build/libs`.
 
-## Project information
+---
+
+### Project information
 
 - Version: `1.2.0`
 - Mod ID: `randomized_recipes`
 - Loader: Forge
 - Minecraft: 1.20.1
 - License: See [LICENSE](LICENSE)
+
+</details>
+
+<details>
+<summary><strong>About this project</strong></summary>
+
+### Author and links
+
+I create and maintain Randomized Recipes as **Dnydd (formerly known as dklyntly)**.
+
+[Official CurseForge page](https://www.curseforge.com/minecraft/mc-mods/randomized-recipes) · [Discord](https://discord.com/invite/mUGHmQxHG8)
+
+### License
+
+Read [LICENSE](LICENSE) for this branch’s terms. Permissions granted with earlier releases remain in effect.
+
+</details>
+
+## Support my work
+
+If you enjoy my projects, you can leave a tip on Ko-fi. Support is always optional.
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A3G129JCLF)
